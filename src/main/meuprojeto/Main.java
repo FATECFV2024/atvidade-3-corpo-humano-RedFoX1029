@@ -8,7 +8,7 @@ public class Main {
         CorpoHumano c1 = new CorpoHumano(0,0,0,0);
 
         System.out.print("Digite a massa: ");
-        c1.setMassa(input.nextFloat());
+        c1.setMassa(input.nextFloat()); // Se esta linha fosse substituida por "c1.massa = '2'; ocorreria um erro por conta do valor da variável ser string ao inves de float
 
         System.out.print("Digite a altura: ");
         c1.setAltura(input.nextFloat());

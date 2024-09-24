@@ -1,6 +1,6 @@
 package meuprojeto;
 public class CorpoHumano {
-    private float massa;
+    private float massa; // Se esta linha fosse substituida por "public float massa;" ocorreria uma modificação de acesso tornando a variável acessivel sem a necessidade de get/set
     private float volume;
     private float densidade;
     private float altura;
@@ -15,7 +15,7 @@ public class CorpoHumano {
     // endregion
 
     // region get/set volume
-    public float getVolume() {
+    public float getVolume() { // Se esta linha fosse substituida por "private setVolume(float volume)" o acesso ao método seria mais restrito permitindo acesso apenas dentro da classe CorpoHumano
         return volume;
     }
     public float setVolume(float volume) {
