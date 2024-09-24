@@ -1,4 +1,4 @@
-package main.java;
+package meuprojeto;
 import java.util.Scanner;
 
 public class App {
